@@ -1,9 +1,9 @@
 {
   "name": "my_first_pro",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "http_module_task.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node http_module_task.js"
   },
   "keywords": [],
   "author": "",

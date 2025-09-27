@@ -1,0 +1,34 @@
+<//================{MODULE}====================//>
+1st task module: "math.js and index.js"
+👉 Notes:
+module.exports = file ke functions/objects ko bahar bhejna.
+require("./filename") = un functions ko import karna.
+
+2nd task module fs: "file_module_task.js"
+👉 Notes:
+writeFileSync = nayi file banata hai ya purani overwrite karta hai.
+readFileSync = file ka data read karta hai.
+appendFileSync = purani file me text add karta hai.
+unlinkSync = file delete karta hai.
+
+3rd task module path: "path_module_task.js"
+👉 Notes:
+basename = file ka naam return karta hai.
+dirname = directory path return karta hai.
+extname = extension return karta hai (e.g. .js).
+join = multiple paths ko combine karta hai safely.
+
+4rd task module: "os_module_task.js"
+👉 Notes:
+os.type() → OS ka type (Darwin = Mac, Linux, Windows_NT).
+os.totalmem() → total RAM.
+os.freemem() → free RAM.
+
+5rd task module: "http_module_task.js"
+👉 Notes:
+http.createServer() = server banata hai.
+res.writeHead(200) = status code + headers.
+res.end() = response bhejta hai.
+server.listen(3000) = server port 3000 pe chal raha hai.
+
+<//================{}====================//>

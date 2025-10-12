@@ -1,12 +1,15 @@
 {
   "name": "my_first_pro",
   "version": "1.0.0",
-  "main": "http_module_task.js",
+  "main": "express.js",
   "scripts": {
-    "start": "node http_module_task.js"
+    "start": "node express.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
